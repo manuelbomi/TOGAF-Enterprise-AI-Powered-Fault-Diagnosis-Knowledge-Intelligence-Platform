@@ -40,6 +40,8 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 
 ## Key TOGAF Phases
 
+<img width="2850" height="1907" alt="Image" src="https://github.com/user-attachments/assets/4563c3da-5538-49a9-814f-56b266b62dc7" />
+
 ### (1). <ins>Preliminary Phase</ins>
 
 #### <ins>Business Drivers</ins>
@@ -111,7 +113,7 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 
 --- 
 
-### (1). <ins>Business Architecture</ins>
+### (3). <ins>Business Architecture</ins>
 
 #### Business Capabilities
 
@@ -121,3 +123,24 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 | Customer Engineering | Field report intelligence | Evolving |
 | Enterprise AI | MLOps + Vector Search + RAG | Emerging → Target Advanced |
 | Cloud Platform Ops | GPU orchestration @ scale | Defined |
+
+
+### <ins>Key Business Processes</ins>
+
+- Field issue receives → Auto ingestion
+
+- Image fault classification (AI)
+
+- Similarity recall via embeddings
+
+- PDF fault report retrieval via LLM-RAG
+
+- Recommendation + resolution suggestion
+
+- Analyst validation & continuous learning
+
+---
+
+### (4). <ins>Information Systems Architecture</ins>
+
+#### Data Architecture
