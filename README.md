@@ -162,3 +162,105 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 | API Gateway | FastAPI gRPC hybrid |
 | Platform | AWS EKS (GPU nodes) |
 | RAG Layer | LangChain / Haystack |
+
+---
+
+### (5). <ins>Technology Architecture</ins>
+
+| Layer | Technology |
+|-------|------------|
+| Compute | AWS EC2 GPU / EKS managed nodes |
+| AI Serving | Nvidia Triton |
+| Index | FAISS-GPU |
+| Pipeline | Kubeflow / Argo |
+| Security | IAM, Secrets Manager, KMS |
+| Networking | Private VPC, VPC endpoints |
+
+---
+
+### (6). <ins>Opportunities & Solutions</ins>
+
+| Phase | Timeline | Deliverables |
+|-------|----------|--------------|
+| Phase 1 | 0–90 days | CNN, FAISS GPU, Streamlit demo, RAG PoC |
+| Phase 2 | 3–6 months | EKS deployment, Triton serving, enterprise RAG |
+| Phase 3 | 6–12 months | Visual Transformers, SOP integration, closed-loop MLOps |
+
+---
+
+
+### (7). <ins>Migration Plan</ins>
+
+Existing datasets migrated to structured S3 + vector store
+
+Model handover from PoC → MLOps GitOps pipeline
+
+Knowledge ingest service deployed before human-in-loop release
+
+---
+
+### (8). <ins>Implementation Governance</ins>
+
+
+Architecture review board checkpoints
+
+ML governance + drift monitoring
+
+Security compliance (SOC2 / ISO 27001)
+
+---
+
+### (9). <ins>Architecture Change Management</ins>
+ 
+Monthly MLOps validation
+
+Quarterly architecture review
+
+Automated retraining hooks
+
+---
+
+### Enterprise AI Risks
+
+| Risk | Control |
+|------|---------|
+| Hallucination in RAG | retrieval-only mode + citations |
+| Model bias | continuous feedback + dataset expansion |
+| GPU cost escalation | autoscaling + spot + A100 pooling |
+
+---
+
+## Enterprise AI Capability Map
+
+#### Level 1 Capabilities
+
+```python
+├── AI Fault Diagnostics
+│   ├── Image Defect Classification
+│   ├── Similarity Search (FAISS)
+│   └── Confidence + RCA scoring
+│
+├── Knowledge Intelligence
+│   ├── PDF ingestion
+│   ├── Embedding store
+│   └── RAG Q&A resolution assistant
+│
+├── MLOps Platform
+│   ├── Model registry & CI/CD
+│   ├── Feature & embedding pipelines
+│   └── GPU inference + autoscaling
+│
+└── Cloud Infrastructure
+    ├── Secure EKS GPU clusters
+    ├── Triton inference
+    └── IAM/KMS/Secret governance
+```
+
+---
+
+### Outcome
+
+#### A complete TOGAF-driven AI program for industrial fault analysis, audit-ready MLOps, and automated engineering intelligence.
+
+
+
