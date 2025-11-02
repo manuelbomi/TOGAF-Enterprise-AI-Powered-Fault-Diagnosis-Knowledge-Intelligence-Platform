@@ -110,3 +110,14 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 > [!NOTE] RCA is Root Cause Analysis
 
 --- 
+
+### (1). <ins>Business Architecture</ins>
+
+#### Business Capabilities
+
+| Domain | Capability | Maturity Level |
+|--------|------------|----------------|
+| Quality Engineering | Automated defect recognition | Evolving |
+| Customer Engineering | Field report intelligence | Evolving |
+| Enterprise AI | MLOps + Vector Search + RAG | Emerging → Target Advanced |
+| Cloud Platform Ops | GPU orchestration @ scale | Defined |
