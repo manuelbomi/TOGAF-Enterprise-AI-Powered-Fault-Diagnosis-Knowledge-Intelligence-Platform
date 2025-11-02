@@ -35,3 +35,14 @@ This architecture defines an AI-driven fault-diagnostics platform for manufactur
 
 ## <ins>Outcome</ins>:
 Reduced cycle time for field issue resolution, increased product reliability, faster RCA (root cause analysis), and workforce enablement via AI.
+
+#### Preliminary Phase
+
+#### <ins>Business Drivers</ins>
+
+| Category | Driver |
+|----------|--------|
+| Customer Experience | Faster fault resolution & communication |
+| Quality & Reliability | Proactive product issue detection |
+| Engineering Efficiency | Automated knowledge retrieval & reduction in manual triage |
+| Digital Transformation | Standardized AI platform & cloud MLOps adoption |
