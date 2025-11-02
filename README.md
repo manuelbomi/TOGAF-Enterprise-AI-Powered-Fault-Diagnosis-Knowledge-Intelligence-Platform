@@ -106,5 +106,6 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 | Improved customer satisfaction | 25–40% response improvement |
 | Enterprise knowledge reuse | Institutional memory creation |
 
->[!NOTE] RCA is Root Cause Analysis
+> [!NOTE] RCA is Root Cause Analysis
+
 --- 
