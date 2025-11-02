@@ -36,7 +36,11 @@ This architecture defines an AI-driven fault-diagnostics platform for manufactur
 ## <ins>Outcome</ins>:
 Reduced cycle time for field issue resolution, increased product reliability, faster RCA (root cause analysis), and workforce enablement via AI.
 
-#### Preliminary Phase
+---
+
+## Key TOGAF Phases
+
+### (1). <ins>Preliminary Phase</ins>
 
 #### <ins>Business Drivers</ins>
 
@@ -46,3 +50,21 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 | Quality & Reliability | Proactive product issue detection |
 | Engineering Efficiency | Automated knowledge retrieval & reduction in manual triage |
 | Digital Transformation | Standardized AI platform & cloud MLOps adoption |
+
+---
+
+## Key Stakeholders
+
+- VP Manufacturing / Engineering
+
+- Quality Engineering & RCA Team
+
+- Data Science & MLOps team
+
+- Field Customer Service
+
+- IT & Cloud Architecture
+
+---
+
+### (2). <ins>Architecture Vision</ins>
