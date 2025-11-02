@@ -68,3 +68,42 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 ---
 
 ### (2). <ins>Architecture Vision</ins>
+
+#### Solution Pillars
+
+- AI Fault Detection & Similarity Learning
+
+- Enterprise Vector Knowledge Search (FAISS + RAG)
+
+- Model Inference at scale (Triton + CUDA GPUs)
+
+- EKS-based MLOps automation
+
+- Continuous learning loop via returned unit feedback
+
+
+#### Scope
+
+<ins>Includes</ins>:
+
+- AI/Image pipelines, Vector DB, EKS, Triton, RAG
+
+- Excludes (Phase 2+):
+
+- Global edge inference
+
+- ERP/PLM deep integration
+
+- Robotics QC automation
+
+
+#### Value Proposition
+
+| Benefit | Impact |
+|---------|--------|
+| Faster Fault Identification | ↓ RCA cycle by 60% |
+| Reduced manual investigation | ↓ labor hours by 40% |
+| Improved customer satisfaction | 25–40% response improvement |
+| Enterprise knowledge reuse | Institutional memory creation |
+
+--- 
