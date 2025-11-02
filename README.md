@@ -144,3 +144,21 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 ### (4). <ins>Information Systems Architecture</ins>
 
 #### Data Architecture
+
+| Component | Technology |
+|-----------|------------|
+| Image Embedding | VGG16 → future ViT |
+| Vector Store | FAISS GPU |
+| Knowledge Store | PDFs → Chunked → Embeddings |
+| Metadata Warehouse | Postgres / S3 |
+| Model Registry | MLflow / ECR |
+
+#### Application Architecture
+
+| Component | Service |
+|-----------|---------|
+| Model Training | TensorFlow GPU / PyTorch upgrade ready |
+| Inference | NVIDIA Triton Inference Server |
+| API Gateway | FastAPI gRPC hybrid |
+| Platform | AWS EKS (GPU nodes) |
+| RAG Layer | LangChain / Haystack |
