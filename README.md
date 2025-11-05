@@ -109,7 +109,9 @@ Reduced cycle time for field issue resolution, increased product reliability, fa
 | Enterprise knowledge reuse | Institutional memory creation |
 
 
-> [!NOTE] RCA is Root Cause Analysis
+> [!NOTE]
+> RCA is Root Cause Analysis
+
 
 --- 
 
